@@ -1,0 +1,76 @@
+#f{
+    background: url('img/firstbg.jpg') no-repeat center center/cover;
+    height: 70vh;
+    /* opacity: 2; */
+    
+}
+#firstPage{
+    
+    .first-wish{
+        color: black;
+        text-align: center;
+        text-shadow: 0px 0px 50px green, 0px 0px 10px white;
+        font-size: 80px;
+        margin-top: 120px;
+        margin-left: 10px;
+        /* opacity: 6; */
+    }
+    #heart{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+h1 {
+    animation: slideIn 1s ease-in-out;
+}
+p{
+    animation: slideIn 1s ease-in-out;
+}
+
+#para{
+    font-size: 30px;
+    color: white;
+}
+#para-div{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+a{
+    font-size: 20px;
+    margin-left: 550px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: azure;
+    display: inline-block;
+    position: relative;
+    animation: slideIn 1s ease-in-out;
+}
+a:hover{
+    background-color: 	#696969;
+    border: 1px solid #696969;
+}
+.txt{
+    background-color: bisque;
+}
+#text-para{
+    
+    font-size: 25px;
+    border: 6px solid black;
+    margin: 18px 10px;
+    padding: 30px;
+    border-radius: 20px;
+}
+

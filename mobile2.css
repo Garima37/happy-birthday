@@ -1,0 +1,96 @@
+#f {
+    background: url('img/firstbg.jpg') no-repeat center center/cover;
+    height: 95vh;
+}
+
+#firstPage .first-wish {
+    color: black;
+    text-align: center;
+    text-shadow: 0px 0px 50px green, 0px 0px 10px white;
+    font-size: 80px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#firstPage #heart {
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+h1, p, a {
+    animation: slideIn 1s ease-in-out;
+}
+
+#para {
+    font-size: 14px;
+    color: white;
+}
+
+#para-div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a {
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: azure;
+    display: inline-block;
+    
+}
+
+a:hover {
+    background-color: #696969;
+}
+
+.txt {
+    background-color: bisque;
+}
+
+#text-para {
+    font-size: 16px;
+    border: 2px solid black;
+    margin: 20px 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    #firstPage .first-wish {
+        font-size: 50px;
+        margin-top: 5%;
+    }
+
+    #firstPage #heart {
+        font-size: 30px;
+    }
+
+    #para-div {
+        margin-left: 7%;
+        margin-right: 2%;
+    }
+
+    a {
+        font-size: 14px;
+        margin-left: 30%;
+    }
+
+    #text-para {
+        font-size: 14px;
+    }
+}
